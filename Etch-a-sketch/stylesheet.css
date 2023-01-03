@@ -1,0 +1,28 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    height: 600px;
+    width: 600px;
+    padding: 50px;
+}
+
+.grids{
+    background-color: white;
+    border: .5px solid black;
+}
+
+.grids:hover{
+    background-color: green;
+}
+
+.buttons{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
